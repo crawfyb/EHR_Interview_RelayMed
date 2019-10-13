@@ -1,7 +1,7 @@
 package com.EHR.EHR.Models;
 
 public class OrderType {
-    
+
         private int orderCode;
 
         private String orderName;
