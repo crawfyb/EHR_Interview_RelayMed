@@ -28,6 +28,9 @@ public class Patient {
         this.patientOrders = new ArrayList<>();
     }
 
+    public Patient() {
+    }
+
     public Long getId() {
         return id;
     }

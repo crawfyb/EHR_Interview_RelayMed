@@ -14,7 +14,10 @@ public class OrderType {
             this.specimenType = specimenType;
         }
 
-        public int getOrderCode() {
+    public OrderType() {
+    }
+
+    public int getOrderCode() {
             return orderCode;
         }
 
