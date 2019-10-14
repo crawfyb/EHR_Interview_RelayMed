@@ -10,6 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "mongodb": "^3.3.2"
+    "mongod": "^2.0.0",
+    "mongodb": "^3.3.2",
+    "mongodb-driver": "^0.1.0"
   }
 }

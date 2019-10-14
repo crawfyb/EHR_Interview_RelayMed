@@ -1,4 +1,7 @@
 package com.EHR.EHR.Repositories.PatientOrderReposiotories;
 
-public interface PatientOrderRepository {
+import com.EHR.EHR.Models.PatientOrder;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface PatientOrderRepository extends JpaRepository<PatientOrder, Long>, PatientOrderRepositoryCustom {
 }
